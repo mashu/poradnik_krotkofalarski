@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sarkastyczny poradnik krótkofalarski: jak skutecznie zająć eter i zniechęcić wszystkich do hobby. Satyrą po pasmach!">
+  <title>Krótkofalarstwo dla opornych — poradnik antydobrych praktyk</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101319;
+      --panel: #191e27;
+      --text: #e8edf4;
+      --muted: #aab5c5;
+      --accent: #ffbd69;
+      --accent2: #79d7c7;
+      --border: #303948;
+      --code: #111720;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at top, #202b38 0, var(--bg) 52rem);
+      color: var(--text);
+      font: 17px/1.72 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .wrap { width: min(900px, calc(100% - 2rem)); margin: 0 auto; }
+    header { padding: 4.5rem 0 2.5rem; }
+    .eyebrow {
+      color: var(--accent2); font-weight: 800; letter-spacing: .12em;
+      text-transform: uppercase; font-size: .78rem;
+    }
+    h1 { font-size: clamp(2.4rem, 7vw, 4.8rem); line-height: 1.04; margin: .6rem 0 1rem; letter-spacing: -.045em; }
+    .subtitle { color: var(--muted); font-size: 1.18rem; max-width: 720px; }
+    .warning {
+      margin: 1.8rem 0; padding: 1rem 1.2rem; border: 1px solid #765a35;
+      border-left: 4px solid var(--accent); border-radius: .7rem; background: #2a241d;
+    }
+    nav {
+      background: var(--panel); border: 1px solid var(--border); border-radius: 1rem;
+      padding: 1.2rem 1.4rem; margin: 1.5rem 0 3rem;
+    }
+    nav strong { display: block; margin-bottom: .4rem; }
+    nav ol { columns: 2; gap: 2rem; padding-left: 1.3rem; margin: .5rem 0 0; }
+    nav li { break-inside: avoid; padding: .12rem 0; }
+    a { color: var(--accent2); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent); }
+    main section { margin: 0 0 3rem; scroll-margin-top: 1rem; }
+    h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 1rem; }
+    h3 { font-size: 1.2rem; margin: 1.5rem 0 .5rem; color: var(--accent); }
+    p { margin: .8rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: .35rem 0; }
+    blockquote {
+      border-left: 4px solid var(--accent2); margin: 1.4rem 0; padding: .7rem 1rem;
+      background: #18232a; border-radius: 0 .6rem .6rem 0; color: #d9f4ef;
+    }
+    .divider { height: 1px; background: var(--border); margin: 2.7rem 0; }
+    .serious {
+      border: 1px solid #2d665d; background: #142621; border-radius: 1rem;
+      padding: 1.4rem 1.5rem;
+    }
+    .serious h2 { color: var(--accent2); }
+    .qso {
+      background: var(--code); border: 1px solid var(--border); border-radius: .8rem;
+      padding: 1rem 1.2rem; margin: 1rem 0;
+    }
+    .qso p { margin: .55rem 0; }
+    .label { display: inline-block; min-width: 7.6rem; color: var(--accent); font-weight: 750; }
+    footer { border-top: 1px solid var(--border); color: var(--muted); padding: 2rem 0 3rem; font-size: .95rem; }
+    .top { display: inline-block; margin-top: 1rem; font-size: .9rem; }
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      header { padding-top: 3rem; }
+      nav ol { columns: 1; }
+      .label { display: block; }
+    }
+    @media print {
+      :root { color-scheme: light; --bg: white; --panel: #f4f4f4; --text: #111; --muted: #444; --border: #bbb; --code: #f6f6f6; }
+      body { background: white; color: #111; font-size: 11pt; }
+      nav { break-after: page; }
+      a { color: #111; }
+      .warning, blockquote, .serious, .qso { background: #f6f6f6; color: #111; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap" id="top">
+    <div class="eyebrow">Wydanie specjalne · 100% praktyki pasmowej · 0% autorefleksji</div>
+    <h1>📻 Krótkofalarstwo dla opornych</h1>
+    <p class="subtitle">Alternatywny poradnik pierwszych kroków, czyli jak skutecznie zniechęcić innych do hobby.</p>
+    <div class="warning"><strong>⚠️ Uwaga:</strong> poradnik jest satyrą. Jeżeli rozpoznajesz w nim swoje zachowanie, gratulacje — właśnie przeszedłeś pierwszy test operatorski.</div>
+    <p>Witaj, przyszły krótkofalowcu!</p>
+    <p>Kupiłeś radio, kawałek drutu i antenę, której SWR jest lepszy niż Twoje maniery? Doskonale. Masz już wszystko, czego potrzeba, żeby rozpocząć podbój eteru.</p>
+    <p>Zapomnij o kulturze operatorskiej, słuchaniu przed nadawaniem i szanowaniu innych użytkowników pasma. To wszystko wymysły ludzi, którzy nie rozumieją, że <strong>radioamatorstwo polega przede wszystkim na tym, żeby było Cię słychać</strong>.</p>
+  </header>
+
+  <main class="wrap">
+    <nav aria-label="Spis treści">
+      <strong>Spis treści</strong>
+      <ol>
+        <li><a href="#radio">Pierwsze radio</a></li>
+        <li><a href="#znak">Znak wywoławczy</a></li>
+        <li><a href="#qso">Pierwsze QSO</a></li>
+        <li><a href="#ptt">PTT</a></li>
+        <li><a href="#raporty">Raporty 59</a></li>
+        <li><a href="#przemienniki">Przemienniki</a></li>
+        <li><a href="#czestotliwosci">Częstotliwości</a></li>
+        <li><a href="#kf">KF i raster</a></li>
+        <li><a href="#dx">DX-pedycje i pile-up</a></li>
+        <li><a href="#zawody">Zawody</a></li>
+        <li><a href="#cw">CW</a></li>
+        <li><a href="#zaklocenia">Zakłócenia</a></li>
+        <li><a href="#konflikty">Konflikty</a></li>
+        <li><a href="#dominacja">Test dominacji</a></li>
+        <li><a href="#etykieta">Etykieta operatorska</a></li>
+        <li><a href="#legenda">Legenda w 7 dni</a></li>
+        <li><a href="#naprawde">Jak zacząć naprawdę</a></li>
+      </ol>
+    </nav>
+
+    <section id="radio">
+      <h2>1. Pierwsze radio — moc jest najważniejsza</h2>
+      <p>Nie przejmuj się takimi drobiazgami jak antena, dopasowanie czy propagacja. Najważniejsza jest moc nadajnika.</p>
+      <p>Masz 5 W? Słabo.</p><p>Masz 50 W? Lepiej.</p><p>Masz 150 W i antenę zrobioną z wieszaka? Teraz zaczyna się prawdziwe krótkofalarstwo.</p>
+      <p>Pamiętaj: jeżeli korespondent Cię nie słyszy, to nie dlatego, że masz kiepskie warunki antenowe. Na pewno ma za słabe radio.</p>
+      <p>A jeśli nie słyszy Cię cała okolica, zwiększ moc. Fizyka ustąpi przed determinacją.</p>
+    </section>
+
+    <section id="znak">
+      <h2>2. Znak wywoławczy — po co komu te literki?</h2>
+      <p>Oczywiście należy znać własny znak. W końcu ktoś musi wiedzieć, kto zajmuje pasmo.</p>
+      <p>Ale czy naprawdę trzeba go podawać za każdym razem?</p>
+      <p>Przecież wszyscy wiedzą, że Darek to SP5XXX, Marian to SP3YYY, a ten gość, który od trzech godzin opowiada o antenie, to po prostu <em>ten od anteny</em>.</p>
+      <p>Najlepiej wołać się po imieniu. Znaki są dla formalistów.</p>
+      <p>Jeżeli ktoś nie wie, kto nadaje, powinien więcej słuchać. Najlepiej Twoich opowieści.</p>
+    </section>
+
+    <section id="qso">
+      <h2>3. Jak przeprowadzić pierwsze QSO?</h2>
+      <p>QSO to łączność radiowa. W teorii wymiana informacji między dwiema stacjami. W praktyce — doskonała okazja, żeby przetestować wytrzymałość akumulatora, końcówki mocy i psychiki rozmówcy.</p>
+      <blockquote><strong>CQ CQ CQ, tutaj SP1ABC, wołam ogólnie, kto mnie słyszy, proszę o odpowiedź.</strong></blockquote>
+      <p>Powtórz dwadzieścia razy.</p>
+      <p>Nie rób zbyt długich przerw. Ktoś mógłby pomyśleć, że skończyłeś i spróbować odpowiedzieć. Nie możemy dopuścić do takiego chaosu.</p>
+      <p>Kiedy ktoś odpowie, podaj raport, znak, imię, QTH, model radia, moc, typ anteny, wysokość masztu, historię instalacji oraz szczegółową analizę SWR.</p>
+      <p>Potem przejdź do tematów naprawdę istotnych:</p>
+      <ul>
+        <li><strong>Polityka</strong> — najlepiej zacząć od stwierdzenia, że wszyscy inni nie mają racji.</li>
+        <li><strong>Religia</strong> — idealna, jeśli chcesz szybko przejść od łączności do konfliktu.</li>
+        <li><strong>Choroby</strong> — Twoje, rodziny i znajomych, najlepiej w porządku chronologicznym.</li>
+        <li><strong>Sąsiedzi</strong> — szczególnie ci, którzy skarżą się na zakłócenia.</li>
+        <li><strong>Radio</strong> — jeśli masz 150 W, przypominaj o tym co kilka minut.</li>
+      </ul>
+      <p>Kiedy skończą Ci się tematy, nie puszczaj PTT. Wypowiedz magiczną formułę:</p>
+      <blockquote>„No co tam jeszcze, kolego, ja miałem…”</blockquote>
+      <p>Następnie zastanów się przez 40 sekund, co chciałeś powiedzieć.</p>
+      <p><strong>Pamiętaj: cisza w eterze to niewykorzystany zasób.</strong></p>
+    </section>
+
+    <section id="ptt">
+      <h2>4. PTT — przycisk, który należy trzymać</h2>
+      <p>PTT służy do przełączania radia na nadawanie. Niektórzy błędnie uważają, że należy go zwolnić, kiedy druga osoba chce coś powiedzieć.</p>
+      <p>Bzdura. Najlepiej trzymać go tak długo, aż:</p>
+      <ul>
+        <li>radio osiągnie temperaturę małego grzejnika;</li>
+        <li>akumulator zacznie rozważać zmianę właściciela;</li>
+        <li>rozmówca zapomni, co chciał powiedzieć;</li>
+        <li>ktoś na forum zapyta, czy przemiennik przypadkiem nie zawiesił się na nośnej.</li>
+      </ul>
+      <p>Jeżeli korzystasz z DMR, możesz też wciskać PTT dokładnie w chwili, gdy zaczynasz mówić, i puszczać dokładnie z ostatnią sylabą. Niech odbiorca sam odtworzy brakujące słowa. To przecież hobby techniczne.</p>
+      <p>A jeśli radio odcina Cię po określonym czasie nadawania, koniecznie narzekaj na producenta.</p>
+      <p>Funkcja TOT? Jaka funkcja TOT?</p>
+    </section>
+
+    <section id="raporty">
+      <h2>5. Raporty — zawsze 59, nawet jeśli słyszysz wyłącznie szum</h2>
+      <p>Raport 59 jest najpiękniejszym wynalazkiem krótkofalarstwa.</p>
+      <p>Słyszysz stację jak przez trzy warstwy betonu? 59.</p><p>Nie słyszysz jej wcale? 59.</p><p>Odbierasz tylko końcówkę znaku, a resztę dopowiada Ci wyobraźnia? Pięć dziewięć, kolego!</p>
+      <p>A kiedy rozmówca zapyta, czy dobrze go odbierasz, odpowiedz:</p>
+      <blockquote>„Raport dla ciebie 59, ale powtórz, bo nic nie zrozumiałem”.</blockquote>
+      <p>W ten sposób zachowujesz tradycję, a jednocześnie podtrzymujesz rozmowę. Same korzyści.</p>
+    </section>
+
+    <section id="przemienniki">
+      <h2>6. Przemienniki — lokalny eter to Twoje królestwo</h2>
+      <p>Przemiennik to urządzenie umożliwiające łączności na większą odległość. W praktyce jest też doskonałym miejscem do ogłoszenia, że od dziś częstotliwość należy do Ciebie.</p>
+      <p>Zasady są proste:</p>
+      <ol>
+        <li>Jeśli słyszysz kogoś na przemienniku, poczekaj, aż skończy.</li>
+        <li>Następnie poczekaj jeszcze chwilę.</li>
+        <li>A potem postaw nośną, żeby wszyscy wiedzieli, kto tu naprawdę jest.</li>
+      </ol>
+      <p>Jeśli ktoś nadaje, a Ty go nie lubisz, nośna jest obowiązkowa. To radioamatorski odpowiednik powiedzenia „nie zgadzam się”, tylko bez konieczności formułowania argumentów.</p>
+      <p>Dodatkowo warto co jakiś czas sprawdzić radio solidnym beknięciem. Szczególnie w trakcie cudzej rozmowy. Niech świat wie, że jesteś obecny.</p>
+      <p>Jeżeli przemiennik pracuje w NFM, a Ty nadajesz w szerokim FM i inni narzekają na przesterowanie lub zbyt szeroki sygnał, powiedz im, żeby kupili lepsze radia.</p>
+      <p>Po co czytać instrukcję, skoro można obwiniać odbiorcę?</p>
+    </section>
+
+    <section id="czestotliwosci">
+      <h2>7. Częstotliwości — własność prywatna z tradycją ustną</h2>
+      <p>Jeżeli regularnie rozmawiasz na 145.xxx MHz, to jest Twoja częstotliwość.</p>
+      <p>Nie ma znaczenia, że widnieje w planie pasma, że korzystają z niej inni operatorzy ani że nikt nie podpisał z Tobą umowy dzierżawy.</p>
+      <p>Ty byłeś tam pierwszy. A przynajmniej tak Ci się wydaje.</p>
+      <p>Gdy ktoś zaczyna prowadzić QSO na „Twoim” kanale, koniecznie zapytaj:</p>
+      <blockquote>„Kolego, nie słyszałeś, że tu jest zajęte?”</blockquote>
+      <p>Jeśli odpowie, że nie, ponieważ przez ostatnie dziesięć minut panowała cisza, wyjaśnij, że grupa ma prawo do częstotliwości również wtedy, kiedy akurat nikt nie nadaje.</p>
+      <p>W końcu eter jest jak działka budowlana. Kto pierwszy postawił nośną, ten właściciel.</p>
+    </section>
+
+    <section id="kf">
+      <h2>8. KF i strojenie — raster jest święty</h2>
+      <p>W eterze wszystko musi być idealnie równe.</p>
+      <p>Nadajesz na 14 105,2 kHz zamiast na 14 105,0 kHz? Skandal.</p>
+      <p>Nie ma znaczenia, czy Twoja emisja mieści się w odpowiednim fragmencie pasma, czy nie przeszkadzasz innym i czy łączność przebiega poprawnie. Dwieście herców różnicy to przecież upadek cywilizacji.</p>
+      <p>Należy natychmiast poinformować operatora, że nie zna podstaw krótkofalarstwa.</p>
+      <p>Oczywiście samemu można bez problemu wjechać 1 kHz obok stacji prowadzącej ważną łączność. Szczególnie jeśli jest to ekspedycja DX.</p>
+      <p>Najważniejsze, żeby krytykować z odpowiednią pewnością siebie.</p>
+    </section>
+
+    <section id="dx">
+      <h2>9. DX-pedycje i pile-up — wszyscy czekają właśnie na Ciebie</h2>
+      <p>DX-pedycja to wyprawa radiowa, często organizowana w rzadko aktywowanym miejscu. Operatorzy z całego świata próbują nawiązać łączność, a stacja ekspedycyjna zarządza ruchem.</p>
+      <p>Brzmi rozsądnie? Nie dla Ciebie.</p>
+      <p>Jeżeli ekspedycja woła „CQ VK”, a Twój znak zaczyna się od SP, odpowiedz natychmiast. Przecież CQ oznacza, że stacja chce rozmawiać z Tobą osobiście.</p>
+      <p>Jeśli nie odpowiada, wołaj głośniej. Jeśli prosi o ciszę, wołaj jeszcze głośniej. Jeśli pracuje ze splitem, ignoruj to ustawienie. Split jest dla słabych, którzy nie potrafią dostroić radia do właściwej częstotliwości.</p>
+      <p>Jeśli wszyscy operatorzy wołają jednocześnie, dołącz do nich. Może właśnie Twój sygnał, nakładający się na czterdzieści innych, zostanie rozpoznany przez wyjątkowo cierpliwego telegrafistę.</p>
+      <blockquote><strong>Zasada DX:</strong> jeśli ekspedycja nie odpowiada, nie zmieniaj strategii. Zwiększ liczbę powtórzeń.</blockquote>
+    </section>
+
+    <section id="zawody">
+      <h2>10. Zawody — najważniejsze, żeby nadawać</h2>
+      <p>Zawody krótkofalarskie polegają na nawiązywaniu łączności według określonego regulaminu, często z wymianą raportów i numerów kontrolnych.</p>
+      <p>Ty jednak masz własną filozofię.</p>
+      <ul>
+        <li>Log? Niepotrzebny.</li>
+        <li>Regulamin? Dla ludzi, którzy nie potrafią improwizować.</li>
+        <li>Numer kontrolny? Przecież każdy wie, że 59 to uniwersalna odpowiedź na wszystko.</li>
+      </ul>
+      <p>Ważne, żeby uczestniczyć. Jeśli po zawodach nie wysyłasz logu, organizator nie będzie miał jak zweryfikować Twoich osiągnięć.</p>
+      <p>To idealne rozwiązanie: możesz wygrać wszystkie zawody w swojej głowie.</p>
+      <p>Bonus dla ambitnych: strojenie anteny dokładnie na częstotliwości stacji, która właśnie prowadzi pile-up. Najlepiej długo, dokładnie i z dużą mocą.</p>
+      <p>Niech zawodnicy poczują, że technika antenowa nadal żyje.</p>
+    </section>
+
+    <section id="cw">
+      <h2>11. CW — niech odbiorca sam sobie zdekoduje</h2>
+      <p>Telegrafia, czyli CW, opiera się na odpowiednim czasie trwania znaków i przerw między nimi.</p>
+      <p>Ale przecież liczy się treść, a nie forma.</p>
+      <ul>
+        <li>kropki i kreski w przypadkowych proporcjach;</li>
+        <li>przerwy między literami według uznania;</li>
+        <li>odstępy między słowami tylko wtedy, gdy zabraknie Ci pomysłu na kolejne znaki;</li>
+        <li>prędkość dobrana tak, żeby odbiorca nie miał chwili na refleksję.</li>
+      </ul>
+      <p>Jeśli ktoś prosi o QRS, czyli wolniejsze nadawanie, potraktuj to jako wyzwanie i przyspiesz.</p>
+      <p>S przecież oznacza <em>szybciej</em>. Tak przynajmniej wynika z Twojej prywatnej wersji alfabetu Morse'a.</p>
+      <p>A jeśli korespondent nie rozumie, nadaj to samo jeszcze raz, ale dwa razy szybciej. Powtarzanie błędów to podstawa automatyzacji.</p>
+    </section>
+
+    <section id="zaklocenia">
+      <h2>12. Zakłócenia — problem zawsze leży po drugiej stronie</h2>
+      <p>Jeżeli ktoś zgłasza, że Twoja stacja powoduje zakłócenia, nie wykonuj pochopnych ruchów.</p>
+      <p>Nie sprawdzaj instalacji antenowej. Nie sprawdzaj harmonicznych ani czystości sygnału. Nie pytaj o szczegóły.</p>
+      <p>Najpierw poinformuj zgłaszającego, że masz wszystkie wymagane dokumenty i radio z homologacją, więc zakłócenia są fizycznie niemożliwe.</p>
+      <p>Jeżeli nadal narzeka, zwiększ moc. Jeżeli nie pomaga, zmień antenę na większą. Jeżeli problem nie ustępuje, zaproponuj mu przeprowadzkę.</p>
+      <p>Pamiętaj: prawdziwy operator nie rozwiązuje problemów. Prawdziwy operator wyjaśnia, dlaczego problemy należą do innych.</p>
+    </section>
+
+    <section id="konflikty">
+      <h2>13. Konflikty na pasmach — dyplomacja dla mięczaków</h2>
+      <p>Każdy wie, że najskuteczniejszą metodą rozwiązywania sporów jest podniesienie głosu.</p>
+      <p>Ktoś zwrócił Ci uwagę? Odpowiedz natychmiast.</p>
+      <p>Ktoś poprosił, żebyś zwolnił częstotliwość? Zapytaj, kim on w ogóle jest.</p>
+      <p>Ktoś przedstawił rzeczowy argument? Zmień temat na jego brak kultury.</p>
+      <p>Ktoś nie zgadza się z Twoją opinią? Wyjaśnij, że krótkofalarstwo kiedyś było lepsze.</p>
+      <p>W razie potrzeby możesz przejść do dyskusji o tym, kto ma większy staż, lepszą antenę i więcej znajomych.</p>
+      <p>Jeśli to nie pomoże, zawsze pozostaje forum internetowe, gdzie można kontynuować konflikt w jakości HD.</p>
+      <blockquote><strong>Uwaga praktyczna:</strong> prawdziwe groźby i przemoc nie są elementem kultury radioamatorskiej. Najlepszym sposobem na zakończenie bezsensownej kłótni jest przestać ją prowadzić.</blockquote>
+    </section>
+
+    <section id="dominacja">
+      <h2>14. Łączność na przemienniku — test dominacji biologicznej</h2>
+      <p>Zasada jest prosta: jeżeli słyszysz ciszę, musisz ją natychmiast wypełnić.</p>
+      <p>Nie wystarczy powiedzieć „sprawdzam radio”. To zbyt mało ambitne.</p>
+      <p>Możesz:</p>
+      <ul>
+        <li>nadawać nośną;</li>
+        <li>powtarzać znak bez wyraźnego celu;</li>
+        <li>robić testy mikrofonu w trakcie cudzych rozmów;</li>
+        <li>wywoływać CQ na kanale, na którym trwa QSO;</li>
+        <li>kończyć każdą wypowiedź słowami „no, to tyle ode mnie”, po czym mówić jeszcze pięć minut.</li>
+      </ul>
+      <p>Jeżeli ktoś próbuje wejść w rozmowę, nie rób przerwy. W przeciwnym razie mógłby uznać, że ma prawo do nadawania.</p>
+    </section>
+
+    <section id="etykieta">
+      <h2>15. Etykieta operatorska — czyli rzeczy, których nie robimy</h2>
+      <p>Poniższa lista zawiera zachowania, które należy stosować wyłącznie wtedy, gdy Twoim celem jest zdobycie tytułu <em>najbardziej uciążliwego sygnału w okolicy</em>.</p>
+      <ul>
+        <li>Nie słuchaj przed nadawaniem.</li>
+        <li>Nie sprawdzaj, czy częstotliwość jest zajęta.</li>
+        <li>Nie podawaj znaku wywoławczego, jeśli akurat Ci się nie chce.</li>
+        <li>Nie rób przerw między wypowiedziami.</li>
+        <li>Nie respektuj instrukcji operatora DX-pedycji.</li>
+        <li>Nie zwalniaj kanału, nawet jeśli ewidentnie przeszkadzasz.</li>
+        <li>Nie dostosowuj szerokości emisji do warunków pracy.</li>
+        <li>Nie kończ QSO, zanim opowiesz o wszystkich swoich antenach.</li>
+        <li>Nie przyznawaj się do błędu. To mogłoby stworzyć niebezpieczny precedens.</li>
+      </ul>
+      <p>Jeśli ktoś mimo wszystko zachowuje się kulturalnie, zachowaj ostrożność. Możesz mieć do czynienia z osobą, która naprawdę zna się na krótkofalarstwie.</p>
+    </section>
+
+    <section id="legenda">
+      <h2>16. Jak zostać legendą lokalnego przemiennika w siedem dni</h2>
+      <ul>
+        <li><strong>Dzień 1:</strong> Przedstaw się i opowiedz o swoim radiu.</li>
+        <li><strong>Dzień 2:</strong> Opowiedz o antenie. Jeśli nie masz anteny, opowiedz, jaką planujesz kupić.</li>
+        <li><strong>Dzień 3:</strong> Wyjaśnij wszystkim, dlaczego Twoja konfiguracja jest najlepsza.</li>
+        <li><strong>Dzień 4:</strong> Wytłumacz, że kiedyś krótkofalarstwo miało prawdziwych operatorów.</li>
+        <li><strong>Dzień 5:</strong> Zajmij kanał przez godzinę. Zrób tylko jedną przerwę, na oddech.</li>
+        <li><strong>Dzień 6:</strong> Pokłóć się z kimś o częstotliwość, raster albo raport.</li>
+        <li><strong>Dzień 7:</strong> Powiedz, że na przemienniku nie ma już z kim rozmawiać.</li>
+      </ul>
+      <p>Jeżeli uda Ci się to wszystko zrealizować, możesz być pewien, że wiele osób będzie Cię pamiętać.</p>
+      <p>Nie wszystkie będą chciały Cię ponownie usłyszeć, ale nie można mieć wszystkiego.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="naprawde" class="serious">
+      <h2>17. A teraz na poważnie: jak faktycznie zacząć robić łączności?</h2>
+      <p>Skoro dotarłeś aż tutaj, warto poznać wersję, która nie kończy się blokowaniem na grupie przemiennikowej.</p>
+      <ol>
+        <li><strong>Zdobądź uprawnienia i poznaj przepisy.</strong> W Polsce zapoznaj się z zasadami uzyskania pozwolenia radiowego, używania znaku wywoławczego i obowiązującym planem pasm.</li>
+        <li><strong>Zacznij od nasłuchu.</strong> Posłuchaj lokalnych przemienników, łączności FM, SSB lub CW. Zwróć uwagę na sposób wywoływania i kończenia QSO.</li>
+        <li><strong>Przygotuj prosty schemat łączności.</strong> Znak, raport, imię, QTH, podstawowe informacje o stacji i uprzejme zakończenie w zupełności wystarczą.</li>
+        <li><strong>Słuchaj przed naciśnięciem PTT.</strong> Upewnij się, że częstotliwość jest wolna, a przemiennik nie jest właśnie używany.</li>
+        <li><strong>Wołaj krótko i wyraźnie.</strong> Na przykład: „SP1ABC, słucham i wołam na przemienniku”. Na KF możesz użyć odpowiedniego wywołania CQ.</li>
+        <li><strong>Dostosuj się do korespondenta.</strong> Jeśli prosi o powtórzenie, powtórz. Jeśli prosi o wolniejsze CW, zwolnij. Jeśli pracuje splitem, ustaw split.</li>
+        <li><strong>Respektuj plan pasma i instrukcje operatorów.</strong> Nie zakładaj, że częstotliwość jest Twoją własnością. W zawodach i podczas DX-pedycji stosuj się do procedur.</li>
+        <li><strong>Zakończ łączność, gdy wyczerpiesz tematy.</strong> Naprawdę nie musisz opowiadać o każdej śrubce w swoim maszcie.</li>
+        <li><strong>Ucz się na błędach.</strong> Sprawdź antenę, modulację, poziom sygnału i ewentualne zakłócenia, zamiast automatycznie obwiniać odbiorcę.</li>
+        <li><strong>Bądź życzliwy.</strong> Dobra łączność to nie konkurs na najdłuższy monolog ani na największą moc nadajnika.</li>
+      </ol>
+
+      <h3>Przykład prostego QSO na FM</h3>
+      <div class="qso">
+        <p><span class="label">Ty:</span> „SP1ABC, słucham na przemienniku”.</p>
+        <p><span class="label">Korespondent:</span> „SP1ABC, tu SP2XYZ, odbieram Cię dobrze, raport pięć dziewięć”.</p>
+        <p><span class="label">Ty:</span> „SP2XYZ, tu SP1ABC, dzięki za raport. U mnie również odbierasz dobrze. Jestem w okolicach Poznania, pracuję mocą 10 W na antenie pionowej. Jakie masz warunki?”</p>
+        <p><span class="label">Korespondent:</span> „Stacja bazowa, antena na dachu, moc 25 W”.</p>
+        <p><span class="label">Ty:</span> „Dzięki za łączność, SP2XYZ. Powodzenia i do usłyszenia na pasmach. SP1ABC kończy”.</p>
+      </div>
+      <p>Krótko, czytelnie i bez konieczności chłodzenia końcówki mocy po każdej wypowiedzi.</p>
+    </section>
+
+    <section>
+      <h2>Zakończenie</h2>
+      <p>Krótkofalarstwo to fascynujące połączenie techniki, propagacji, elektroniki, eksperymentów i kontaktów z ludźmi na całym świecie.</p>
+      <p>Można budować anteny, poznawać nowe pasma, pracować telegrafią, zdobywać rzadkie kraje i prowadzić interesujące rozmowy.</p>
+      <p>Można też przez czterdzieści minut opowiadać o tym, że ma się 150 W, podczas gdy inni próbują przeprowadzić jedną łączność.</p>
+      <p>Wybór należy do Ciebie.</p>
+      <blockquote><strong>73 i do usłyszenia na pasmach!</strong></blockquote>
+      <p><em>P.S. Jeśli ktoś poprosi Cię o zwolnienie PTT, nie traktuj tego jako ataku na wolność słowa. Czasem po drugiej stronie naprawdę siedzi człowiek, który też chce nadawać.</em></p>
+      <a class="top" href="#top">↑ Wróć na górę</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Poradnik satyryczny dla radioamatorów. Znaki i przykładowe łączności są fikcyjne. Przestrzegaj obowiązujących przepisów, planu pasm i zasad kultury operatorskiej.</p>
+    </div>
+  </footer>
+</body>
+</html>
